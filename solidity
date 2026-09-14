@@ -11,3 +11,6 @@ constructor() ERC721("MyNFTCollection", "MNFT") Ownable(msg.sender) {}
  /**
  * @dev Mint a new NFT to a specific address.
 * @param recipient The wallet address receiving the NFT.
+* @param tokenURI The link to the JSON metadata (hosted on IPFS/Arweave).
+* @param tokenURI The link to the JSON metadata (hosted on IPFS/Arweave).
+     */
