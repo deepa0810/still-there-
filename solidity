@@ -20,3 +20,4 @@ onlyOwner
 returns (uint256)
 {
 _currentTokenId++;
+uint256 newItemId = _currentTokenId;
