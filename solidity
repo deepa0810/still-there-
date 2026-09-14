@@ -4,3 +4,5 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 contract MyNFT is ERC721URIStorage, Ownable {
 uint256 private _currentTokenId;
+
+ // Initialize the NFT with a Name and a Symbol
