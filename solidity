@@ -9,3 +9,4 @@ uint256 private _currentTokenId;
 constructor() ERC721("MyNFTCollection", "MNFT") Ownable(msg.sender) {}
 
  /**
+ * @dev Mint a new NFT to a specific address.
