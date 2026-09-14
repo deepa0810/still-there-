@@ -6,3 +6,4 @@ contract MyNFT is ERC721URIStorage, Ownable {
 uint256 private _currentTokenId;
 
  // Initialize the NFT with a Name and a Symbol
+constructor() ERC721("MyNFTCollection", "MNFT") Ownable(msg.sender) {}
