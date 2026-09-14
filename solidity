@@ -18,3 +18,4 @@ constructor() ERC721("MyNFTCollection", "MNFT") Ownable(msg.sender) {}
  public
 onlyOwner
 returns (uint256)
+{
