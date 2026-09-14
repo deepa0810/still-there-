@@ -23,3 +23,7 @@ _currentTokenId++;
 uint256 newItemId = _currentTokenId;
 
   _safeMint(recipient, newItemId);
+ _setTokenURI(newItemId, tokenURI);
+ return newItemId;
+    }
+}
